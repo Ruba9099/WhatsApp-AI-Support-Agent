@@ -1,0 +1,26 @@
+# Local secrets. Keep the example template tracked.
+.env
+.env.*
+!.env.example
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.Python
+
+# Local data and test artifacts
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
